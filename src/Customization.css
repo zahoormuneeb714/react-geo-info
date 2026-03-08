@@ -1,0 +1,37 @@
+fieldset {
+    padding: 1rem;
+    border-radius: 10px;
+    width: 600px;
+    margin-top: 100px;
+    background-color: white;
+    border: none;
+    box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.3);
+
+}
+
+fieldset legend {
+    padding: 10px;
+}
+
+.formgroup {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.formgroup label {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.formgroup input {
+    padding: 10px;
+    border: 1px solid grey;
+    outline: none;
+    border-radius: 40px;
+}
+
+.btn-save-changes {
+    background-color: green;
+}

@@ -1,3 +1,60 @@
-h1 {
-  color: red;
+.counter-app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.count {
+    font-size: 240px;
+}
+
+.functions {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 40px;
+    background-color: white;
+    box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.3);
+}
+
+.btn {
+    border-radius: 40px;
+    padding: 10px;
+    color: white;
+    border: navajowhite;
+    outline: none;
+    text-transform: capitalize;
+    font-weight: 500;
+    box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.3);
+}
+
+.btn:hover {
+    transition: .3s;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.btn-increment {
+    background-color: rgb(23, 212, 23);
+}
+
+.btn-decrement {
+    background-color: red;
+}
+
+.btn-reset {
+    color: black;
+}
+
+.msg {
+    margin-top: 1rem;
+    background-color: black;
+    color: white;
+    border-radius: 40px;
+    padding: 5px 10px;
 }
